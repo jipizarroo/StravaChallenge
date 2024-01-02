@@ -1,0 +1,63 @@
+body {
+  background: orange;
+}
+.App {
+  text-align: center;
+  background: orange;
+  width: 100%;
+}
+
+button {
+  height: 35px;
+  font-size: 20px;
+  text-decoration: none;
+  background: black;
+  color: white;
+  width: 50%;
+}
+
+button > a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.outlateContainer {
+  background: #36454f;
+  height: 100%;
+  padding: 40px;
+  border: 10px solid rgba(54, 69, 79, 0.5);
+  min-height: 512px;
+  display: flex;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
